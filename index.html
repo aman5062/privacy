@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ananta HQ Tools</title>
+    <!-- Google Fonts: Inter for professional, highly readable typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --accent-color: #2563eb;
+            --accent-light: #eff6ff;
+            --border-color: #e2e8f0;
+            --max-width: 800px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .brand-link {
+            font-size: 0.875rem;
+            text-decoration: none;
+            color: var(--text-muted);
+            font-weight: 500;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            transition: color 0.2s ease;
+        }
+
+        .brand-link:hover {
+            color: var(--accent-color);
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-top: 0.5rem;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
+        }
+
+        .last-updated {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, var(--accent-light) 0%, #f0fdf4 100%);
+            border-left: 4px solid var(--accent-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2.5rem;
+            font-weight: 500;
+            color: #1e3a8a;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.02), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        section:last-of-type {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-main);
+            letter-spacing: -0.01em;
+            display: flex;
+            align-items: center;
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-bottom: 1.25rem;
+            color: var(--text-muted);
+            padding-left: 0.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        li strong {
+            color: var(--text-main);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .badge-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .badge-grid {
+                grid-template-columns: 1fr;
+            }
+            body {
+                padding: 1rem 0.5rem;
+            }
+            .card {
+                padding: 1.5rem;
+            }
+        }
+
+        .badge-card {
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .badge-card.no-collect {
+            background-color: #f0fdf4;
+            border-color: #bbf7d0;
+        }
+
+        .badge-card.collect {
+            background-color: #fefbeb;
+            border-color: #fef08a;
+        }
+
+        .badge-title {
+            font-weight: 600;
+            font-size: 0.875rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .badge-card.no-collect .badge-title {
+            color: #166534;
+        }
+
+        .badge-card.collect .badge-title {
+            color: #854d0e;
+        }
+
+        .badge-desc {
+            font-size: 0.8125rem;
+            color: var(--text-muted);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <a href="https://anantahq.com" class="brand-link">Ananta HQ</a>
+            <h1>Privacy Policy</h1>
+            <div class="last-updated">Last Updated: June 20, 2026</div>
+        </header>
+
+        <div class="highlight-box">
+            This app does not collect, store, or transmit any of your files, documents, images, or the text you enter into any tool. All file processing (merge, resize, compress, etc.) happens entirely on your device.
+        </div>
+
+        <main class="card">
+            <section>
+                <h2>1. Core Privacy Philosophy</h2>
+                <p>
+                    We believe your files and documents are private. <strong>Ananta HQ Tools</strong> is built as an offline-first utility application. All native operations—including merging PDFs, rendering pages, resizing images, and converting file formats—are performed locally on your device using your phone's processor. No internet connection is required for any file processing actions.
+                </p>
+            </section>
+
+            <section>
+                <h2>2. Data Collection & Transmission</h2>
+                <p>
+                    Because this app operates locally, we have designed it to minimize the data collected. Here is a breakdown of what data leaves your device and what does not:
+                </p>
+
+                <div class="badge-grid">
+                    <div class="badge-card no-collect">
+                        <div class="badge-title">User Files & Documents</div>
+                        <div class="badge-desc"><strong>Never Collected or Transmitted.</strong> All processing occurs locally on-device.</div>
+                    </div>
+                    <div class="badge-card no-collect">
+                        <div class="badge-title">Preferences & Local Cache</div>
+                        <div class="badge-desc"><strong>Stored Locally.</strong> App favorites, history, and settings are saved locally and never shared.</div>
+                    </div>
+                    <div class="badge-card collect">
+                        <div class="badge-title">Crash Diagnostics</div>
+                        <div class="badge-desc"><strong>Transmitted.</strong> Stack traces and hardware metadata are sent to Firebase Crashlytics to resolve bugs.</div>
+                    </div>
+                    <div class="badge-card collect">
+                        <div class="badge-title">Ad Delivery Data</div>
+                        <div class="badge-desc"><strong>Transmitted.</strong> Handled directly by Google AdMob for showing compliant ads.</div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>3. Detailed Data Breakdown</h2>
+                <ul>
+                    <li>
+                        <strong>User Content:</strong> The app does not read, index, store, or transmit the content of your files, photos, or text input. Temporary files generated during operations (e.g., merging files) are automatically and immediately cleared from the secure application cache directory.
+                    </li>
+                    <li>
+                        <strong>Diagnostics & Performance (Firebase Crashlytics):</strong> If the app crashes, a technical report is sent to Firebase. This report contains only technical data (such as OS version, device model, and stack traces) to help us resolve the issue. It never contains your files or tool input contents.
+                    </li>
+                    <li>
+                        <strong>Advertising (Google AdMob):</strong> The app displays advertisements served by Google AdMob. Google AdMob may collect and use advertising identifiers (like the Android Advertising ID) and device metadata to serve, personalize, and analyze ads according to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>. AdMob does not have access to your private files.
+                    </li>
+                    <li>
+                        <strong>Purchase Processing (Google Play Billing):</strong> If you purchase <em>Lifetime Pro</em>, the transaction is handled securely by Google Play. An anonymous purchase token is verified locally to activate your entitlement. We do not collect or store your billing details, name, or email.
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Device Permissions</h2>
+                <p>
+                    Ananta HQ Tools respects your device's security model. The app utilizes:
+                </p>
+                <ul>
+                    <li><strong>Scoped Storage Access / SAF:</strong> The app lets you pick files using the system document picker. Access is granted only to the specific files you select.</li>
+                    <li><strong>On-Demand Permissions:</strong> Permissions such as Camera access (for scanners) or Notifications are requested contextually only when you explicitly open a tool that requires them. Denying a permission will degrade only that specific tool, and the rest of the application remains fully functional.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Third-Party Services</h2>
+                <p>
+                    We partner with third-party service providers for stability, billing, and monetization. Please review their privacy policies:
+                </p>
+                <ul>
+                    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Play Services & Google Play Billing</a></li>
+                    <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+                    <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google AdMob</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>6. Children's Privacy</h2>
+                <p>
+                    Our application is intended for a general audience. We do not knowingly collect personal identifiable information from children under 13.
+                </p>
+            </section>
+
+            <section>
+                <h2>7. Contact Us</h2>
+                <p>
+                    If you have any questions or feedback regarding this Privacy Policy, feel free to contact us:
+                </p>
+                <p>
+                    Email Support: <a href="mailto:support@anantahq.com">support@anantahq.com</a><br>
+                    Website: <a href="https://anantahq.com" target="_blank" rel="noopener noreferrer">anantahq.com</a>
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Ananta HQ. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
